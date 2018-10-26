@@ -1,7 +1,7 @@
 class MP3Importer
   attr_accessor :File
 
-  
+
   def initialize(file)
     @file = File
   end
@@ -11,5 +11,5 @@ class MP3Importer
 
   def import
   end
-  
+
 end
