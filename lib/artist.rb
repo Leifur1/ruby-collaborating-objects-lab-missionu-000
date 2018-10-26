@@ -7,8 +7,9 @@ class Artist
     @@all << self
   end
 
-  def add_song
-
+  def add_song(song)
+    @@all << song
+    song.artist = self
   end
 
   def save
